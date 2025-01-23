@@ -1,0 +1,1 @@
+docker container run -d --name mongodb -p 8081:8081 -e MONGO_INITDB_ROOT_USERNAME=mongo_usr -e MONGO_INITDB_ROOT_PASSWORD=mongo_pwd mongo
